@@ -1,0 +1,127 @@
+
+/* CSS for positioning.html */
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 25px;
+    margin: 10px;
+    text-align: center;
+}
+
+main {
+    color: #136379;
+}
+
+h1 {
+    margin-top: 75px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 45px;
+    text-align: center;
+}
+
+div {
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.floatLeft {
+    width: 300px;
+    float: left;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.floatRight {
+    width: 300px;
+    float: right;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+/* CSS for grid.html */
+
+.box1 {
+    display:inline-block;
+    position: static;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 98%;
+    height:100px;
+    background-color: #F5C6D6;
+}
+
+.box2, .box3, .box4 {
+    display:inline-block;
+    position: static;
+    margin-left: 1%;
+    margin-right: 1.5%;
+    width: 22%;
+    height:100px;
+    background-color: #EE2E84;
+}
+
+.box5 {
+    display:inline-block;
+    position: relative;
+    float: right;
+    margin-right: 1%;
+    width: 22%;
+    height:100px;
+    background-color: #EE2E84;
+}
+
+
+.box6 {
+    display: inline-block;
+    position: static;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    width:47%;
+    height:100px;
+    background-color: #85CFD8;
+}
+
+.box7 {
+    display: inline-block;
+    position: static;
+    float: right;
+    margin-left: 1%;
+    margin-right: 1%;
+    width:48.5%;
+    height:100px;
+    background-color: #85CFD8;
+}
+
+.box8 {
+    display:inline-block;
+    position: static;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    width:72%;
+    height:100px;
+    background-color: #8DC63F;
+}
+
+.box9 {
+    display:inline-block;
+    position: relative;
+    float: right;
+    margin-left: 1%;
+    margin-right: 1%;
+    width:22%;
+    height:100px;
+    top: 100;
+    left: 100;
+    background-color: #E76E34;
+}

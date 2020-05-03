@@ -1,0 +1,92 @@
+
+* {
+    color: #136379;
+    background-color: blanchedalmond;
+}
+
+header {
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.herPlace {
+    font-family: 'Dancing Script', cursive;
+    padding: 20px;
+}
+
+nav, a {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 25px;
+    background-color: lightgray;
+
+}
+
+.artwork {
+    left: 12%;
+}
+
+.blog {
+    left: 26%;
+}
+
+.about {
+    left: 36%;
+}
+
+.homeImg {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float: left;
+    width: 400px;
+}
+
+.homeP {
+    padding: 15px;
+    font-family: 'Acme', sans-serif;
+
+}
+
+ul {
+    text-indent: 40px;
+}
+
+table, th, td, tr {
+    border: 1px solid  black;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    line-height: 5px;
+    margin-top: 100px;
+}
+
+.artworkImg {
+    width: 50%;
+    float: right;
+    padding: 60px;
+}
+
+.artworkP {
+    padding-top: 30px;
+    padding: 100px;
+    font-size: larger;
+    text-align: justify;
+}
+
+.aboutImg {
+    width: 50%;
+    float: left;
+    padding: 60px;
+}    
+
+.aboutP {
+    padding: 70px;
+    font-size: larger;
+    text-align: justify;
+}

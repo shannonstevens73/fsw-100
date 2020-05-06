@@ -1,0 +1,115 @@
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .one {
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    grid-row-start: 1;
+    background-color: #F5C6D6;
+  }
+  .two { 
+    grid-column: 1;
+    grid-row: 2;
+    background-color: #EE2E84;
+  }
+  .three {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #EE2E84;
+  }
+  .four {
+    grid-column: 3;
+    grid-row: 2;
+    background-color: #EE2E84;
+  }
+  .five {
+    grid-column: 4;
+    grid-row: 2;
+    background-color: #EE2E84;
+  }
+  .six {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 3;;
+    background-color: #85CFD8;
+  }
+  .seven {
+    grid-column-start: 3;
+    grid-column-end: span 2;
+    grid-row-start: 3;
+    background-color: #85CFD8;
+  }
+  .eight {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    grid-row-start: 4;
+    background-color: #8DC63F;
+  }
+  .nine {
+    grid-column-start: 4;
+    grid-row-start: 4;
+    background-color: #E76E34;
+  }
+
+
+@media only screen and (max-width: 768px){
+
+    .one {
+        grid-column-start: 1;
+        grid-column-end: span 4;
+        grid-row-start: 1;
+        background-color: #F5C6D6;
+      }
+      .two { 
+        grid-column-start: 1;
+        grid-column-end: span 4;
+        grid-row-start: 2;
+        background-color: #EE2E84;
+      }
+      .three {
+        grid-column-start: 1;
+        grid-column-end: span 4;
+        grid-row-start: 3;
+        background-color: #EE2E84;
+      }
+      .four {
+        grid-column-start: 1;
+        grid-column-end: span 4;
+        grid-row-start: 4;
+        background-color: #EE2E84;
+      }
+      .five {
+        grid-column-start: 1;
+        grid-column-end: span 4;
+        grid-row-start: 5;
+        background-color: #EE2E84;
+      }
+      .six {
+        grid-column-start: 1;
+        grid-column-end: span 4;
+        grid-row-start: 6;
+        background-color: #85CFD8;
+      }
+      .seven {
+        grid-column-start: 1;
+        grid-column-end: span 4;
+        grid-row-start: 7;
+        background-color: #85CFD8;
+      }
+      .eight {
+        grid-column-start: 1;
+        grid-column-end: span 4;
+        grid-row-start: 8;
+        background-color: #8DC63F;
+      }
+      .nine {
+        grid-column-start: 1;
+        grid-column-end: span 4;
+        grid-row-start: 9;
+        background-color: #E76E34;
+      }
+    }

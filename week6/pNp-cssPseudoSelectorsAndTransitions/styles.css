@@ -1,43 +1,43 @@
 
 #container {    
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    
-      
+    grid-template-columns: repeat(6, 1fr);      
 }
 
 .box1 {
     grid-column: 1 / 2;
-    grid-row: 1;
+    grid-row: 1 / 2;
 
     
     width: 75px;
     height: 75px;
     background: steelblue;
     margin: 10px;
-    transition: background-color 1s linear 1s;
+    transition: background-color 500ms linear 500ms, width 500ms linear 500ms;
     
 }
 
 .box1:hover {
-    background-color: firebrick;
+    background-color: green;
     width: 300px;
 }
 
 .box2 {
     grid-column: 3 / 4;
-    grid-row: 1;
+    grid-row: 2 / 3;
 
     width: 75px;
     height: 75px;
     background: steelblue;
     margin: 10px;
-    transition: background-color 1s linear 1s;
+    transition: background-color 1s ease 1s, box-shadow 1s ease-out 1s;
 }
 
 .box2:hover {
     background-color: purple;
     height: 150px;
+    box-shadow: 5px 10px greenyellow;
+    
 }
 
 .box3 {
@@ -48,61 +48,68 @@
     height: 75px;
     background: steelblue;
     margin: 10px;
-    transition: background-color 1s linear 1s;
-    
+    text-align: center;
+    transition: background-color 1s linear 1s, margin 500ms ease-in-out 500ms;    
 }
 
 .box3:hover {
     background-color: darkorchid;
-    width: 300px;
+    margin: 25px;
 }
 
 .box4 {
     grid-column: 1 / 2;
-    grid-row: 3;
+    grid-row: 5 / 6;
 
     width: 75px;
     height: 75px;
     background: steelblue;
     margin: 10px;
-    transition: background-color 1s linear 1s;
+    transition: background-color 1s linear 1s, width 500ms ease 500ms, height 500ms ease 500ms;
     
 }
 
 .box4:hover {
     background-color: pink;
-    width: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 .box5 {
     grid-column: 3 / 4;
-    grid-row: 3;
+    grid-row: 7 / 8;
 
     width: 75px;
     height: 75px;
     background: steelblue;
     margin: 10px;
-    transition: background-color 1s linear 1s;
+    text-align: center;
+    color: steelblue;
+    transition: background-color 500ms ease 500ms, box-shadow 500ms ease 500ms;
 }
 
 .box5:hover {
-    background-color: navy;
-    width: 80px;
+    background: rgba(0,0,0,0);
+	color: steelblue;
+    box-shadow: inset 0 0 0 3px steelblue;
+
 }
 
 .box6 {
     grid-column: 5 / 6;
-    grid-row: 3;
+    grid-row: 5 / 6;
 
     width: 75px;
     height: 75px;
     background: steelblue;
     margin: 10px;
-    transition: background-color 1s linear 1s;
+    transition: background-color 500ms ease 500ms, width 500ms ease 500ms, height 500ms ease 500ms;
 }
 
 .box6:hover {
-    background-color: grey;
+    background-color: navy;
     width: 50px;
+    height: 200px;
+    transform: skew(-10deg);
 }
 
